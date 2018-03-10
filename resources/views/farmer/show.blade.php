@@ -155,7 +155,7 @@
                         swal('Warning', 'Transaction data not present', 'warning');
                     } else {
                         if (data.equal)
-                            swal('All ok!', 'Blockchain data are identical to database', 'success');
+                            swal('All ok!', 'Blockchain data is identical to database', 'success');
                         else
                             swal('Oops!', 'Blockchain data differs with database', 'error');
                     }
