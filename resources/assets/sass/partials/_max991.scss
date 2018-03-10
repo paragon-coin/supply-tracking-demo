@@ -1,0 +1,218 @@
+@media (max-width: 991px) {
+  .mainContainer {
+    width: 750px;
+  }
+  .loginPageHolder {
+    flex-wrap: wrap;
+    .left,
+    .right {
+      width: 100%;
+      min-height: unset;
+    }
+    .left {
+      justify-content: center;
+    }
+    .right {
+      justify-content: center;
+    }
+    .logoHolder {
+      .logo {
+        width: 213px;
+        height: 240px;
+      }
+      .caption {
+        .slogan {
+          font-size: 18px;
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+        }
+        .text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .signForm {
+    .heading {
+      justify-content: center;
+      font-size: 26px;
+    }
+    label {
+      font-size: 14px;
+    }
+    .form-control {
+      font-size: 16px;
+    }
+  }
+  .signFormHolder {
+    .userType {
+      text-align: center;
+    }
+  }
+
+
+  .authHeader {
+    .dropdown {
+      .dropdown-menu {
+        min-width: unset;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        background: transparent;
+        float: none;
+        position: static;
+        box-shadow: none;
+        border: 0;
+        & > li {
+          & > a {
+            justify-content: center;
+            &:hover,
+            &:active,
+            &:focus {
+              background: transparent;
+              color: #fff;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    .menuWrapper {
+      position: fixed;
+      background: rgba(0,0,0,.95);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      align-items: center;
+      z-index: 999;
+      padding: 90px 45px;
+      justify-content: center;
+      opacity: 0;
+      transition: 1s;
+      &.fadeIn {
+        opacity: 1;
+        display: block;
+      }
+      &.in {
+        display: block;
+        opacity: 1;
+      }
+      .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+    .localMenu {
+      display: block;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 5px;
+      li {
+        padding: 10px 0;
+      }
+      li + li {
+        margin-left: 0;
+      }
+      a {
+        display: inline-block;
+        font-size: 20px;
+      }
+    }
+  }
+  .menuTriggerHolder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .authHeader {
+    .authHeaderWrapper {
+      justify-content: space-between;
+      .menuWrapper {
+        width: 100%;
+      }
+    }
+    &.blogHeader {
+      .menuWrapper {
+        width: 100%;
+        .localMenu {
+          margin-right: 0;
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .blogHeaderWrapper {
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .authHeader {
+    .authHeaderWrapper {
+      .menuWrapper {
+        .localMenu {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .pagePanelHolder {
+    .pagePanelHeading {
+      a {
+        display: none;
+      }
+    }
+  }
+  .fluidContainer {
+    padding: 0 15px;
+  }
+  .addNewItemHolder {
+    .stepsContentHolder {
+      padding: 0 30px 15px;
+    }
+  }
+  .fofHolder {
+    .fofCard {
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      .titleHolder {
+        padding-left: 60px;
+      }
+      .icoHolder {
+        top: 10px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

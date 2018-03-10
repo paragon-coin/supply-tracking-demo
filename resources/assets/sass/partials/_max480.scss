@@ -1,0 +1,44 @@
+@media (max-width: 480px) {
+  .pageLayerHolder {
+    .fluidContainer {
+      padding: 0;
+    }
+  }
+  .pagePanelHolder {
+    padding: 15px;
+    border-radius: 0;
+    .pagePanelHeading {
+      margin-right: -15px;
+      margin-left: -15px;
+      border-radius: 0;
+    }
+  }
+  .mainHeader {
+    .fluidContainer {
+      padding: 0 15px;
+    }
+  }
+  .pageHolder {
+    padding: 20px 0;
+  }
+  .breadcrumb {
+    margin-top: 0;
+    border-radius: 0;
+    background: #eee;
+  }
+  .addNewItemHolder {
+    .stepsNameHolder {
+      li {
+        a {
+          font-size: 10px;
+        }
+      }
+    }
+    .stepsContentHolder {
+      padding: 0 15px 15px;
+    }
+    .btnHolder {
+      padding: 15px;
+    }
+  }
+}

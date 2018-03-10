@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+  .mainContainer {
+    width: 970px;
+    padding: 0 15px;
+  }
+  .minContainer {
+    width: 100%;
+  }
+  .verticalTabsHolder {
+    display: block;
+    .tabsNav {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 45px;
+      flex-wrap: wrap;
+      li {
+        margin-bottom: 15px;
+        a {
+          width: 110px;
+          padding: 10px;
+        }
+      }
+      li + li {
+        margin-top: 0;
+        margin-left: 10px;
+      }
+    }
+    .tabsContentHolder {
+      width: 100%;
+    }
+  }
+}

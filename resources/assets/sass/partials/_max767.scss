@@ -1,0 +1,96 @@
+@media (max-width: 767px) {
+  .mainContainer {
+    width: 100%;
+  }
+  .loginPageHolder {
+    .left,
+    .right {
+      .content {
+        width: 100%;
+        padding: 0 15px;
+      }
+    }
+  }
+  .asideMenuTrigger {
+    display: none;
+  }
+  .mainHeader {
+    .wrapper {
+      justify-content: space-between;
+    }
+  }
+
+  .fluidContainer {
+    padding: 0 15px;
+  }
+
+  .asideMenu {
+    width: 60px;
+    padding: 15px 10px;
+    .heading {
+      .title {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
+    }
+    .namePart {
+      display: none;
+    }
+    .menu {
+      .caption {
+        display: none;
+      }
+      .icoHolder {
+        margin-right: 0;
+      }
+      a {
+        padding: 5px;
+      }
+    }
+  }
+  .mainPageWrapper {
+    .pageLayerHolder {
+      width: calc(100% - 60px);
+    }
+  }
+  .logo {
+    background: url("/img/logoSm.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 28px;
+    height: 28px;
+  }
+  .asideMenu.out {
+    width: 60px;
+  }
+  .mainPageWrapper .pageLayerHolder.asideOut {
+    width: calc(100% - 60px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
